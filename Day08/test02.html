@@ -1,0 +1,40 @@
+<style>
+    /* 元素選擇器 */
+    p {
+        font-size: 30px;
+        color: blue;
+    }
+    
+    /* id 選擇器 */
+    #first {
+        font-size: 40px;
+        color: red;
+    }
+    
+    /* id 選擇器 */
+    .sentence {
+        font-weight: bold;
+    }
+    
+    /* 通用選擇器 */
+    * {
+        font-family: "Impact";
+    }
+    
+    /* 屬性選擇器 */
+    p[data-name] {
+        color: green;
+    }
+    </style>
+    
+    <p class="sentence" id="first">
+    這是一個段落
+    </p>
+    
+    <p class="sentence" id="second">
+    這是另外一個段落
+    </p>
+    
+    <p class="sentence" id="third" data-name="my-third">
+    這是最後一個段落
+    </p>
